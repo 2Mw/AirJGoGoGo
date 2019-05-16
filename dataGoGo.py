@@ -28,7 +28,7 @@ def get_data(stu_num):
 
     headers = {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36'}
 
-    url = 'https://app.jiangnan.edu.cn/jnapp/action/invokeMobile/invoke?inStrParams={%27e_account%27:%27'+stu_num+'%27,%27serviceId%27:%271100015%27}&_=1556954246085'
+    url = stu_num
 
 
     threads = []
